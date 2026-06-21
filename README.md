@@ -12,8 +12,11 @@ DRAM and IDE controller are added using Amiga autoconfig mechanism with chain sn
  - 8MB DRAM Zorro II
  - IDE controller with 2 channels
  - 2,5" IDE connector
- - 3,5" IDE connector with pin 20 fused power supply
- - full Zorro II autoconfig
+ - 3,5" IDE connector with +5V power supply (fused on pin 20)
+ - IDE LED connector
+ - jumperless, full Zorro II autoconfig
+ - IDE autoboot ROM
+ - Flash update
  - compatible with Kickstart v37.299 (2.04) and later
 
 ## limitations
@@ -25,5 +28,5 @@ The ecc0 573 has been designed to achieve several goals. This leaves the finishe
 4. The IDE controller uses the fabulous [lide.device](https://github.com/LIV2/lide.device) by Matt Harlum as autoboot firmware thus inheriting all it's limitations.
 5. The expansion always configures last in the autoconfiguration chain and uses the remaining resources available.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzM3ODY2NTNdfQ==
+eyJoaXN0b3J5IjpbLTE3OTU0MDI2MjhdfQ==
 -->
