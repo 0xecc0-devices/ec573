@@ -15,7 +15,7 @@ DRAM and IDE controller are added using Amiga autoconfig mechanism with chain sn
 
 ## features
 
- - 8MB DRAM Zorro II
+ - 8MB DRAM Zorro II mapped into $20.0000 - $9F.FFFF
  - IDE controller with 2 channels for 4 devices using the fabulous [lide.device](https://github.com/LIV2/lide.device)
  - full Zorro II autoconfig
  - jumperless
@@ -35,5 +35,5 @@ The ecc0 573 has been designed to achieve several goals. This leaves the finishe
 4. The IDE controller uses [lide.device](https://github.com/LIV2/lide.device) by Matt Harlum as autoboot firmware thus inheriting all it's limitations.
 5. The expansion always configures last in the autoconfiguration chain and uses the remaining resources available.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI1ODk1Nzk0LDEwOTk1MTI0ODFdfQ==
+eyJoaXN0b3J5IjpbMTA5NjEzNjU3NywxMDk5NTEyNDgxXX0=
 -->
