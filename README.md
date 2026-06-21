@@ -3,14 +3,20 @@
 ## description
 The ecc0 573 - or ec573 - is an Amiga 500 internal 8MB DRAM Zorro II expansion with 2 channel autoboot IDE controller sitting under the MC68000 CPU. It does fit into a standard Amiga 500 Mainboard interfering with neither ROM nor expansion connector.
 
+### rendered pcb
 ![rendered ec573 v1.0 pcb](https://github.com/0xecc0-devices/ec573/blob/main/images/ec573.png)
+
+### real pcb
+![real hardware ec573 v1.0](https://github.com/0xecc0-devices/ec573/blob/main/images/ec573_top.jpg)
+### fitted into A500
+![ec573 v1.0 fitted into A500](https://github.com/0xecc0-devices/ec573/blob/main/images/ec573_fitted.jpg)
 
 DRAM and IDE controller are added using Amiga autoconfig mechanism with chain snooping. The expansion requires at least Kickstart 2.04 (v37.299).
 
 ## features
 
- - 8MB DRAM Zorro II
- - IDE controller with 2 channels for 4 devices using the fabulous [lide.device](https://github.com/LIV2/lide.device)
+ - 8MB DRAM Zorro II memory expansion
+  - IDE controller with 2 channels for 4 devices using the fabulous [lide.device](https://github.com/LIV2/lide.device)
  - full Zorro II autoconfig
  - jumperless
  - 2,5" IDE connector
@@ -19,6 +25,11 @@ DRAM and IDE controller are added using Amiga autoconfig mechanism with chain sn
  - 128kB IDE controller ROM with CD boot capability
  - IDE autoboot ROM in circuit flash updateable
  - compatible with Kickstart v37.299 (2.04) and later
+
+## technical details
+ - 8MB DRAM mapped into Amiga's Zorro II memory address space ($20.0000 - $9F.FFFF)
+ - 128kB IDE controller mapped as I/O device into Amiga's Zorro II I/O address space
+ - 15,6 &#xb5;S DRAM CBR refresh
 
 ## limitations
 The ecc0 573 has been designed to achieve several goals. This leaves the finished design with limitations which are intended, yet to be made transparent.
@@ -29,5 +40,6 @@ The ecc0 573 has been designed to achieve several goals. This leaves the finishe
 4. The IDE controller uses [lide.device](https://github.com/LIV2/lide.device) by Matt Harlum as autoboot firmware thus inheriting all it's limitations.
 5. The expansion always configures last in the autoconfiguration chain and uses the remaining resources available.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5OTUxMjQ4MV19
+eyJoaXN0b3J5IjpbMTAzMzAxODg2NSwtMTc1ODM2NjkzMCwxMD
+k5NTEyNDgxXX0=
 -->
