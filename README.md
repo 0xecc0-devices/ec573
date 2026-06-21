@@ -27,10 +27,9 @@ DRAM and IDE controller are added using Amiga autoconfig mechanism with chain sn
  - compatible with Kickstart v37.299 (2.04) and later
 
 ## technical details
-
  - 8MB DRAM mapped into Amiga's Zorro II memory address space ($20.0000 - $9F.FFFF)
  - 128kB IDE controller mapped as I/O device into Amiga's Zorro II I/O address space
- - 15,6 S
+ - 15,6 &#xb5;S DRAM CBR refresh
 
 ## limitations
 The ecc0 573 has been designed to achieve several goals. This leaves the finished design with limitations which are intended, yet to be made transparent.
@@ -41,5 +40,6 @@ The ecc0 573 has been designed to achieve several goals. This leaves the finishe
 4. The IDE controller uses [lide.device](https://github.com/LIV2/lide.device) by Matt Harlum as autoboot firmware thus inheriting all it's limitations.
 5. The expansion always configures last in the autoconfiguration chain and uses the remaining resources available.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTgzNjY5MzAsMTA5OTUxMjQ4MV19
+eyJoaXN0b3J5IjpbMTAzMzAxODg2NSwtMTc1ODM2NjkzMCwxMD
+k5NTEyNDgxXX0=
 -->
