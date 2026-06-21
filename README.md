@@ -7,6 +7,12 @@ The ecc0 573 - or ec573 - is an Amiga 500 internal 8MB DRAM Zorro II expansion w
 
 DRAM and IDE controller are added using Amiga autoconfig mechanism with chain snooping. The expansion requires at least Kickstart 2.04 (at least v37.299).
 
+## features
+
+ - 
+ - full Zorro II autoconfig
+ - compatible with Kickstart v37.299 ()
+
 ## limitations
 The ecc0 573 has been designed to achieve several goals. This leaves the finished design with limitations which are intended yet to be made transparent.
 
@@ -16,5 +22,5 @@ The ecc0 573 has been designed to achieve several goals. This leaves the finishe
 4. The IDE controller uses the fabulous [lide.device](https://github.com/LIV2/lide.device) by Matt Harlum as autoboot firmware thus inheriting all it's limitations.
 5. The expansion always configures last in the autoconfiguration chain and uses the remaining resources available.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTI1OTUzODBdfQ==
+eyJoaXN0b3J5IjpbLTE3MTQ5NTYwMDVdfQ==
 -->
