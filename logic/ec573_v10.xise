@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <header>
+    <!-- ISE source project file created by Project Navigator.             -->
+    <!--                                                                   -->
+    <!-- This file contains project source information including a list of -->
+    <!-- project source files, project and process properties.  This file, -->
+    <!-- along with the project source files, is sufficient to open and    -->
+    <!-- implement in ISE Project Navigator.                               -->
+    <!--                                                                   -->
+    <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+  </header>
+
+  <version xil_pn:ise_version="14.7" xil_pn:schema_version="2"/>
+
+  <files>
+    <file xil_pn:name="ec573.v" xil_pn:type="FILE_VERILOG">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="22"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="4"/>
+    </file>
+    <file xil_pn:name="ec573.ucf" xil_pn:type="FILE_UCF">
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
+    </file>
+    <file xil_pn:name="autoconfig.v" xil_pn:type="FILE_VERILOG">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="46"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="3"/>
+    </file>
+    <file xil_pn:name="ide.v" xil_pn:type="FILE_VERILOG">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="84"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="1"/>
+    </file>
+    <file xil_pn:name="dram.v" xil_pn:type="FILE_VERILOG">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="113"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="2"/>
+    </file>
+  </files>
+
+  <properties>
+    <property xil_pn:name="Device" xil_pn:value="xc95144xl" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Device Family" xil_pn:value="XC9500XL CPLDs" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Implementation Template" xil_pn:value="Optimize Density" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Implementation Top" xil_pn:value="Module|ec573" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Implementation Top File" xil_pn:value="ec573.v" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Implementation Top Instance Path" xil_pn:value="/ec573" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Last Applied Strategy" xil_pn:value="Optimized Area;C:/Xilinx/14.7/ISE_DS/ISE/data/Optimized Area.xds" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Optimization Effort" xil_pn:value="High" xil_pn:valueState="non-default" xil_pn:x_locked="true"/>
+    <property xil_pn:name="Optimization Goal" xil_pn:value="Area" xil_pn:valueState="non-default" xil_pn:x_locked="true"/>
+    <property xil_pn:name="Package" xil_pn:value="TQ100" xil_pn:valueState="default"/>
+    <property xil_pn:name="Preferred Language" xil_pn:value="Verilog" xil_pn:valueState="default"/>
+    <property xil_pn:name="Property Specification in Project File" xil_pn:value="Store non-default values only" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Selected Module Instance Name" xil_pn:value="/ec573/autoconfig" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Selected Simulation Root Source Node Behavioral" xil_pn:value="work.autoconfig" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Simulator" xil_pn:value="ISim (VHDL/Verilog)" xil_pn:valueState="default"/>
+    <property xil_pn:name="Speed Grade" xil_pn:value="-10" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Synthesis Tool" xil_pn:value="XST (VHDL/Verilog)" xil_pn:valueState="default"/>
+    <property xil_pn:name="Target UCF File Name" xil_pn:value="ec573.ucf" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Top-Level Source Type" xil_pn:value="HDL" xil_pn:valueState="default"/>
+    <property xil_pn:name="User Browsed Strategy Files" xil_pn:value="C:/Xilinx/14.7/ISE_DS/ISE/data/Optimized Area.xds" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="VHDL Source Analysis Standard" xil_pn:value="VHDL-200X" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Working Directory" xil_pn:value="." xil_pn:valueState="non-default"/>
+    <!--                                                                                  -->
+    <!-- The following properties are for internal use only. These should not be modified.-->
+    <!--                                                                                  -->
+    <property xil_pn:name="PROP_DesignName" xil_pn:value="ec573_v10" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="PROP_DevFamilyPMName" xil_pn:value="xc9500xl" xil_pn:valueState="default"/>
+    <property xil_pn:name="PROP_intProjectCreationTimestamp" xil_pn:value="2026-05-01T18:29:57" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="PROP_intWbtProjectID" xil_pn:value="68DAFC26C9DB4660A74827D34CC50A3B" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="PROP_intWorkingDirLocWRTProjDir" xil_pn:value="Same" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="PROP_intWorkingDirUsed" xil_pn:value="No" xil_pn:valueState="non-default"/>
+  </properties>
+
+  <bindings/>
+
+  <libraries/>
+
+  <autoManagedFiles>
+    <!-- The following files are identified by `include statements in verilog -->
+    <!-- source files and are automatically managed by Project Navigator.     -->
+    <!--                                                                      -->
+    <!-- Do not hand-edit this section, as it will be overwritten when the    -->
+    <!-- project is analyzed based on files automatically identified as       -->
+    <!-- include files.                                                       -->
+    <file xil_pn:name="../Z2_Autoconfig_Registers/Z2_Autoconfig_Registers.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="../Z2_Autoconfig_Registers/Z2_Autoconfig_Constants.v" xil_pn:type="FILE_VERILOG"/>
+  </autoManagedFiles>
+
+</project>

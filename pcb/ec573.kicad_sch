@@ -1,0 +1,251 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "9106e3b9-c0ce-4a0a-b62d-2e04e166f544")
+	(paper "A4")
+	(title_block
+		(title "ec573 - Amiga 500 IDE + 8MB Z2 RAM")
+		(date "2024-09-15")
+		(rev "1.0")
+		(comment 1 "IDE RAM Z2 autoconfig")
+		(comment 2 "Amiga 500 8MB Z2 IDE RAM")
+	)
+	(lib_symbols)
+	(sheet
+		(at 228.854 25.4)
+		(size 26.162 25.146)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "11e537bc-e34d-40d8-9c24-f4d5f8527ebf")
+		(property "Sheetname" "Glue"
+			(at 228.854 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Glue.kicad_sch"
+			(at 228.854 51.1306 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ec573"
+				(path "/9106e3b9-c0ce-4a0a-b62d-2e04e166f544"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 25.4)
+		(size 26.162 25.146)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d3e56d97-475a-45b0-aa70-7db50b079ea2")
+		(property "Sheetname" "ROM"
+			(at 177.8 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ROM.kicad_sch"
+			(at 177.8 51.1306 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ec573"
+				(path "/9106e3b9-c0ce-4a0a-b62d-2e04e166f544"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 25.4)
+		(size 26.162 25.146)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d9be6a70-3880-4ca9-8c3e-34814938d4f2")
+		(property "Sheetname" "RAM"
+			(at 76.2 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RAM.kicad_sch"
+			(at 76.2 51.1306 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ec573"
+				(path "/9106e3b9-c0ce-4a0a-b62d-2e04e166f544"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.892 24.892)
+		(size 26.162 25.146)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ea2eaef3-5b94-4316-8232-fac97bdc34a1")
+		(property "Sheetname" "Mainboard"
+			(at 24.892 24.1804 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Mainboard.kicad_sch"
+			(at 24.892 50.6226 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ec573"
+				(path "/9106e3b9-c0ce-4a0a-b62d-2e04e166f544"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 25.4)
+		(size 26.162 25.146)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ee5bcdeb-e2d9-4668-bdd9-3cb37ffd3fe2")
+		(property "Sheetname" "IDE"
+			(at 127 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IDE.kicad_sch"
+			(at 127 51.1306 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ec573"
+				(path "/9106e3b9-c0ce-4a0a-b62d-2e04e166f544"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
